@@ -1,3 +1,5 @@
+# Tue Aug 16 08:21:26 PDT 2016 | ~/current/working/dir
+# [7 files 0b] username@hostname: $ 
 export PS1="\[\033[35m\]\$(/bin/date) | \[\033[32m\]\w\n\[\033[0m\][\[\033[1;36m\]\$(/bin/ls -1 | /usr/bin/wc -l | /usr/bin/sed 's: ::g') files \[\033[1;33m\]\$(/bin/ls -lah | /usr/bin/grep -m 1 total | /usr/bin/sed 's/total //')b\[\033[0m\]] \[\033[1;31m\]\u@\h: $ \[\033[0m\]"
 
 
